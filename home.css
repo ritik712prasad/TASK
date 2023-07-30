@@ -1,0 +1,89 @@
+body{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.upperSection{
+ display: flex;
+ background-color: #0a2029;
+ width: 100%;
+ height: 600px;
+ color: whitesmoke;
+}
+
+.navBar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+  margin-left: 50px;
+  width: 20%;
+  margin-left: 60px;
+}
+
+.list{
+  margin-left: 80px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+ul{
+  padding: 10px;
+  width: 800px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+li{
+  font-size:larger;
+}
+
+li:hover{
+  text-decoration:underline #39c8af;
+  transform: scale(1.1);
+  font-weight: bold;
+}
+
+.buttons{
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn-green{
+  width: 150px;
+  height: 50px;
+  margin-top: 10px;
+  background-color: #39c8af;
+  border-radius: 1em;
+  color: whitesmoke;
+}
+
+.btn-black{
+  width: 150px;
+  height: 50px;
+  margin-top: 10px;
+  background-color: #0a2029;
+  border-radius: 1em;
+  border-color: antiquewhite;
+  color: whitesmoke;
+}
+
+.lowerSection{
+  background-color: aqua;
+  display: flex;
+  width: 100%;
+  height: 600px;
+}
